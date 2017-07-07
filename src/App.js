@@ -1,22 +1,65 @@
 import React, { Component } from 'react';
+import {
+  Container,
+  Grid,
+  Icon,
+  List,
+  Segment} from 'semantic-ui-react';
+import Header from './Header';
+import Footer from './Footer';
+import Map from './Map';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <main className="App">
-        <div className="App-header">
-          Mary Mccleary Law
+      <div className="app">
+        <Header />
+        <div className="app-splash">
+          <h1 className="app-heading">
+            Mary McCleary
+          </h1>
+          <h2 className="app-subheading">
+            Attorney and Counselor at Law
+          </h2>
         </div>
-        <div className="App-bgBar">
-        </div>
-        <div className="App-welcome">
-          <section className="App-section">
-            <h3>Welcome to Mary Mccleary Law!</h3>
-            <p>Thank you for visiting us today.  Here's some information about us.</p>
-          </section>
-        </div>
-      </main>
+        <main>
+          <Container>
+            <Grid columns={2} stackable stretched>
+              <Grid.Column>
+                <Segment className="text-center">
+                  <div className="segment-icon">
+                    <Icon name="marker" size="huge" />
+                  </div>
+                  <div className="divider"></div>
+                  <div className="contact-list">
+                    <List>
+                      <List.Item>
+                        <List.Icon name="phone"></List.Icon>
+                        <List.Content>(505) 750-4169</List.Content>
+                      </List.Item>
+                      <List.Item>
+                        <List.Icon name="mail"></List.Icon>
+                        <List.Content>mary@mcclearyrichter-freund.com</List.Content>
+                      </List.Item>
+                      <List.Item>
+                        <List.Icon name="marker"></List.Icon>
+                        <List.Content>Albuquerque, NM</List.Content>
+                      </List.Item>
+                    </List>
+                  </div>
+                </Segment>
+              </Grid.Column>
+              <Grid.Column>
+                <Segment>
+                  <Map />
+                </Segment>
+              </Grid.Column>
+            </Grid>
+          </Container>
+        </main>
+        <Footer />
+      </div>
     );
   }
 }
