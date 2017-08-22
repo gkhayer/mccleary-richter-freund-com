@@ -8,10 +8,6 @@ export default () => (
     <Container>
       <List>
         <List.Item>
-          <List.Icon name="fax"></List.Icon>
-          <List.Content>(505) 393-4596 (fax)</List.Content>
-        </List.Item>
-        <List.Item>
           <List.Icon name="mail"></List.Icon>
           <List.Content>
             P.O. Box 254 <br/>

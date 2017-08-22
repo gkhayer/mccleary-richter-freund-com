@@ -22,6 +22,12 @@ class App extends Component {
           <h2 className="app-subheading">
             Attorney and Counselor at Law
           </h2>
+          <h1 className="app-heading">
+            Leon Richter-Freund
+          </h1>
+          <h2 className="app-subheading">
+            Attorney and Counselor at Law
+          </h2>
         </div>
         <main>
           <Container>
@@ -43,8 +49,15 @@ class App extends Component {
                         <List.Content>mary@mcclearyrichter-freund.com</List.Content>
                       </List.Item>
                       <List.Item>
+                        <List.Icon name="mail"></List.Icon>
+                        <List.Content>leon@mcclearyrichter-freund.com</List.Content>
+                      </List.Item>
+                      <List.Item>
                         <List.Icon name="marker"></List.Icon>
-                        <List.Content>Albuquerque, NM</List.Content>
+                        <List.Content>
+                          620 Roma Ave. NW <br/>
+                          Albuquerque, NM 87102
+                        </List.Content>
                       </List.Item>
                     </List>
                   </div>

@@ -10,7 +10,7 @@
     "react-scripts": "1.0.10",
     "semantic-ui-react": "^0.70.0"
   },
-  "homepage": "https://iteam-consulting.github.io/mccleary-richter-freund-com",
+  "homepage": "http://mcclearyrichter-freund.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
