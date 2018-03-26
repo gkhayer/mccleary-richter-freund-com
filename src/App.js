@@ -55,7 +55,7 @@ class App extends Component {
                       <List.Item>
                         <List.Icon name="marker"></List.Icon>
                         <List.Content>
-                          620 Roma Ave. NW <br/>
+                          1001 Luna Cir. NW.<br/>
                           Albuquerque, NM 87102
                         </List.Content>
                       </List.Item>
